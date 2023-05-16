@@ -49,6 +49,8 @@ const todoList = todos.map((todo)=>{
   <label htmlFor="low">Low</label>
   <input name="priority" type="radio" id="high-priority" onInput={handlePriority}/>
   <label htmlFor="high">High</label>
+  <input name="priority" type="radio" id="no-priority" onInput={handlePriority}/>
+  <label htmlFor="high">No Priority</label>
   <input type="submit" value="Save Item"/>
 </form>
 
