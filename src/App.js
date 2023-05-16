@@ -40,6 +40,10 @@ const todoList = todos.map((todo)=>{
 <form onSubmit={handleSave}>
   <label htmlFor="addTodo">Todos to be added here: </label>
   <input id="addTodo" type="text" value={newItem} onInput={handleInput}/>
+  <input type="radio" id="low" />
+  <label htmlFor="low">Low</label>
+  <input type="radio" id="high"/>
+  <label htmlFor="high">High</label>
   <input type="submit" value="Save Item"/>
 </form>
 
